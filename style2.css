@@ -1,0 +1,19 @@
+#bshadow {
+width: 0px;
+height: 0px;
+background: dodgerblue;
+}
+#triangle {
+width: 0px;
+height: 0px;
+border-top: 50px solid red;
+border-right: 50px solid transparent;
+border-bottom: 50px solid transparent;
+border-left: 50px solid transparent;
+}
+#oval {
+width: 120px;
+height: 70px;
+background: dodgerblue;
+border-radius: 60px/35px ; 
+}

@@ -1,0 +1,75 @@
+<html> 
+<head>
+     <title>mon premier formulaire</title>
+     <style> 
+            #div1{ 
+                  width:50%;
+                  float:left;
+}
+            #div2{
+                 width:50%; 
+                 float:right;
+}
+
+     </style>
+</head>
+<body>
+<h1>votre avis nous intéresse</h1>
+<form>
+<div id="div1">
+<fieldset>
+    <legend>information personnelles</legend>
+    <ol>
+        <li>Nom <input type="text" name="" required=""></li> 
+        <li>Date de naissance <input type="date" name="" required=""></li>
+        <li>Site <input type="site" name=""
+         placeholder="www.monsite.com" required=""></li>
+
+  <label >Emploi</label>
+  <select name="">
+    <option value=""></option>
+    <option value="Etudiant">Etudiant</option>
+    <option value="Administrateur Réseau">Administrateur Réseau</option>
+    <option value="Dévelopeur web">Dévelopeur web</option>
+    <option value="Web designer">Web designer</option>
+    <option value="DevOps">DevOps</option>
+  </select><br>
+
+  <label >Approx. Salaire annuel</label><br>
+  <input required type="number" name="" placeholder="$" min="0" max="1000">
+  </li></ol>
+        
+ 
+</fieldset>
+</div>
+<div id="div2">
+<fieldset>
+    <legend>information de contact</legend>
+    <ol>
+        <li>Adresse linge 1 <br><input type="address" name="" required=""></li> 
+        <li>Adresse linge 2 <br><input type="address" name="" required=""></li>
+        <label >Pays</label>
+        <select name="">
+          <option value=""></option>
+          <option value="Algérie">Algérie</option>
+          <option value="Tunisie">Tunisie</option>
+          <option value="Maroc">Maroc</option>
+          </select><br>
+        <li>Tel <input type="Tel" name="" placeholder="eg: +213 67..." required=""></li>
+        <li>Couriel<input type="email" name="" required=""></li>
+        </ol>
+</fieldset>
+</div>
+</form>
+<h1> préférences</h1>
+<div>
+choisir une couleur <input type="color" name="" value="black" required="" >
+</div>
+<div>
+Sur une échelle de 1 a 10, quel est votre degré d'enthousiasme pour HTML 5?<input type="range" required="" > <br>
+</div>
+<div>
+ <input type="submit" name="" value="Envoyer">
+</div>
+</body>
+</html>
